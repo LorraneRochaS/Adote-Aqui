@@ -18,9 +18,10 @@ a {
     text-decoration: none;
     color: black;
     font-size: 30px;
-    background-color: #C5AFA4;
+    background-color: #C5AFA4 0.8;
 
 }
+
 h1 {
     text-align: center;
     margin-top: 100px;
@@ -54,37 +55,38 @@ body {
     background-color: #A1CDF1;
 }
 
-.Gatinho { 
+.Gatinho {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0 auto;
+   flex-wrap: wrap;
+   justify-content: center;
+    margin: auto;
+    
+
 }
 
-.Gatinho > div {
-    flex: 1  1 200px;
-    margin:  10px;
-}
+
 
 img {
-    object-fit: cover;
     height: 472px;
+    width: 629px;
+    object-fit: cover;
+    flex-direction: row;
+  border:  #C5AFA4 solid 10px;
 }
+
+
+
+
 
 
 
 footer {
     flex-shrink: 0;
-    background:  #297373;
-	color:  #fff;
-    padding:  20px;
+    background: #297373;
+    color: #fff;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-
-
-
-
-  

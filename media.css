@@ -3,3 +3,27 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 600px) {
+   
+
+    .cat {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .cat>div {
+        flex: 1 0 200px;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    img {
+        max-width: 100%;
+        height: 100%;
+    width: 100%;
+    border: none;
+    }
+}
+ 
